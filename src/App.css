@@ -1,0 +1,21 @@
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* Styles for phone */
+@media (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+
+
+

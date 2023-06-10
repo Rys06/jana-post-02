@@ -1,0 +1,47 @@
+.pinduoduo-inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pinduoimg {
+    border-radius: 12px;
+    width: 550px;
+    height: 468px;}
+
+.pinduoduo-right {
+    background: linear-gradient(99.76deg,#fe8301,#fd3301);
+    border-radius: 24px;
+    width: 550px;
+    height: 468px;
+    padding: 40px 40px 40px 40px;
+    line-height: 32px;
+}
+
+.pinduologo{
+    width: 50px;
+    height: 50px;
+}
+
+.whitelogo{
+    width: 100px;
+    height: 50px;
+}
+
+.pin-item{
+    color: white;
+}
+
+.pinduoduo-paragraphs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pin-h2{
+    color: white;
+}
+
+.pintexts{
+    color: white;
+}

@@ -1,0 +1,23 @@
+.jana-team-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box{
+    width: 768px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.teamimg{
+    margin-top: 10px;
+    width: 768px;
+}
+
+.right-box{
+    width: 408;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}

@@ -1,0 +1,49 @@
+.tarif-container {
+    margin-right: 100px;
+  }
+  
+  .weight-display {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  .progress-input {
+    margin-top: 10px;
+  }
+  
+  
+  .progress-bar {
+    font-size: 28px;
+    color: #000000;
+  }
+  
+  .per-kg-price {
+    font-size: 14px;
+    color: #000000;
+    margin-left: 450px;  
+
+}
+  
+  .container-value{
+    margin-right: 200px;
+    margin-left: 100px;
+    
+  }
+
+  .container-weigh{
+    width: 100px;
+    display: flex;
+  }
+
+  .container-weight-inner{
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 20px;
+    margin-right: 100px;
+    height: 60px;
+
+  }
+
+  .weight-text{
+    margin-left: 20px;
+  }

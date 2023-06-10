@@ -1,0 +1,28 @@
+
+.filials-title{
+    margin-top: 50px;
+}
+
+.filials-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.location-container {
+    background-color: aliceblue;
+    border-radius: 24px;
+    padding: 16px 12px;
+    margin: 0 30px;
+    width: 300px;
+}
+
+.all-filials-button {
+    display: flex;
+    margin: 40px auto;
+    background-color: gainsboro;
+    color: green;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+}

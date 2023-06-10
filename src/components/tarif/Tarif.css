@@ -1,0 +1,18 @@
+.tarif-inner{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    border-radius: 24px;
+    background-color: #f1f2f4;
+}
+
+.tarif-text-container{
+    margin-left: 30px;
+}
+
+.tarif-text{
+    color: #1c1b1f;
+    font-weight: 700;
+}

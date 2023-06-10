@@ -1,0 +1,22 @@
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 72px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.jana-logo {
+  margin-left: 100px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}

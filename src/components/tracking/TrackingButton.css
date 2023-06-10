@@ -1,0 +1,74 @@
+.tracking-button {
+    margin-top: 100px;
+}
+
+
+.welcome-land {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.white-logo {
+    width: 164.13px;
+    height: 75px;
+
+}
+
+.welcome-text {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 32px;
+    color: #fff;
+    white-space: break-spaces;
+    text-align: center;
+    margin-bottom: 1em;
+    
+}
+
+.bgimage {
+    border-radius: 24px;
+    background: linear-gradient(180deg,rgba(0,0,0,.24),rgba(0,0,0,.64)),url(/Users/kondybairysbek/Desktop/jana-post-02/src/assets/bg-first-page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 40px 16px;
+    border-radius: 24px;
+    width: 100%;
+}
+
+.tracking-inner {
+    margin: 0 auto;
+}
+
+.tracking{
+    margin: 0 auto;
+}
+
+.button-container {
+    width: 400px;
+    margin: 0 auto;
+    background: rgba(0,0,0,.4);
+    padding: 8px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tracking-content {
+    margin-top: 12px;
+
+}
+
+.placeholder-container {
+    margin: 0 auto;
+    padding: 5px 5px 5px 12px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 12px 32px rgba(42,70,94,.03);
+    border-radius: 12px;
+    width: 400px;
+}
