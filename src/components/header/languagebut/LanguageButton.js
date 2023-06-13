@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import "/Users/kondybairysbek/Desktop/jana-post-02/src/components/header/languagebut/LanguageButton.css"
-import Arrowimg from "/Users/kondybairysbek/Desktop/jana-post-02/src/assets/arrowimg.svg"
+import "../languagebut/LanguageButton.css"
+import Arrowimg from "../../../assets/arrowimg.svg"
+import LangKz from "../../../assets/kz.svg"
 
 const LanguageBut = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,6 +12,7 @@ const LanguageBut = () => {
 
   return (
     <div className="language-button" onClick={toggleDropdown}>
+      <img src={LangKz} className='lang-style'/>
       <button className='language-button-inner'>Қазақша</button>
       <img src={Arrowimg}/>
       {isOpen && (

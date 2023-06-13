@@ -17,18 +17,17 @@
 .welcome-text {
     margin-top: 8px;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 32px;
+    font-size: 46px;
+    line-height: 60px;
     color: #fff;
     white-space: break-spaces;
     text-align: center;
     margin-bottom: 1em;
-    
 }
 
 .bgimage {
     border-radius: 24px;
-    background: linear-gradient(180deg,rgba(0,0,0,.24),rgba(0,0,0,.64)),url(/Users/kondybairysbek/Desktop/jana-post-02/src/assets/bg-first-page.jpg);
+    background: linear-gradient(180deg,rgba(0,0,0,.24),rgba(0,0,0,.64)),url(../../assets/bg-first-page.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -43,10 +42,15 @@
 
 .tracking{
     margin: 0 auto;
+    align-items: center;
+}
+.tracking-text{
+    color: #fff;
+    font-size: 24px;
 }
 
 .button-container {
-    width: 400px;
+    width: 588px;
     margin: 0 auto;
     background: rgba(0,0,0,.4);
     padding: 8px;
@@ -58,7 +62,8 @@
 
 .tracking-content {
     margin-top: 12px;
-
+    position: relative;
+    text-align: center;
 }
 
 .placeholder-container {
@@ -72,3 +77,89 @@
     border-radius: 12px;
     width: 400px;
 }
+
+.btn-light {
+    cursor: pointer;
+    padding: 12px 0 8px 13px;
+    height: 56px;
+    width: 50%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.btn-primary {
+    cursor: pointer;
+    padding: 12px 0 8px 13px;
+    height: 56px;
+    width: 50%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    background: #1a73e9;
+    box-shadow: 0 -4px 8px rgba(42,70,94,.04);
+    border-radius: 12px;
+}
+
+.track-img{
+    margin-right: 8px;
+}
+
+.observation-input {
+    width: 588px;
+    padding: 5px 5px 5px 12px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 12px 32px rgba(42,70,94,.03);
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.label{
+    color: #526070;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+    margin-left: -5px;
+}
+
+
+.observation-btn{
+    padding: 12px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+    background: #1b8918;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    min-width: 101px;
+}
+
+.input-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    border: none;
+}
+
+
+input[type="text"] {
+    display: inline-block;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    background-color: transparent;
+    outline: none;
+  }

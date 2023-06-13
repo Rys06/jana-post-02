@@ -1,8 +1,9 @@
 import React from 'react'
-import "/Users/kondybairysbek/Desktop/jana-post-02/src/components/pinduoduo/Pinduoduo.css"
-import pinduoimg from "/Users/kondybairysbek/Desktop/jana-post-02/src/assets/pinDuoDuoImg.2c83b723.png"
-import pinlogo from "/Users/kondybairysbek/Desktop/jana-post-02/src/assets/pinDuoDuoLogo.png"
-import Whitelogopin from "/Users/kondybairysbek/Desktop/jana-post-02/src/assets/jana-white-logo.png"
+import "../pinduoduo/Pinduoduo.css"
+import pinduoimg from "../../assets/pinDuoDuoImg.2c83b723.png"
+import pinlogo from "../../assets/pinDuoDuoLogo.png"
+import Whitelogopin from "../../assets/jana-white-logo.png"
+
 
 function Pinduoduo() {
   return (

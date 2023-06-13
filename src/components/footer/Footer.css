@@ -1,8 +1,17 @@
+.footer{
+    border-top: 0.5px solid #e8e8e8;
+    box-shadow: 0 -4px 8px rgba(42,70,94,.04);
+    margin-top: 80px;
+}
+
 .footer-inner{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 100px auto 30px;
+    padding: 24px 16px;
+}
+
+.footer-logo{
+    margin-bottom: 24px;
 }
 
 .footer-jana-post-logo{
@@ -11,15 +20,35 @@
 
 .footer-navbar{
     display: flex;
+    align-items: start;
+    margin-bottom: 17px;
 }
+
+.footer-number{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1c1b1f;
+}
+
 
 .android-phone-logo{
     margin-right: 30px;
 }
 
 .whatsapp-button{
+    align-items: center;
     display: flex;
-    margin: 10px 30px 0;
+    /* margin: 10px 30px 0; */
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 100px;
+    padding: 4px 12px 4px 4px;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1c1b1f;
 }
 
 .whatsapp-logo{
@@ -35,8 +64,47 @@
     margin-right: 10px;
 }
 
-.location-text{
-    margin-top: 35px;
+.location-text-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1c1b1f;
+}
+
+.location-text-city{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #526070;
+}
+
+.maps{
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 100px;
+    padding: 4px 12px 4px 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1c1b1f;
+    margin-right: 8px;
+}
+
+.maps-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1c1b1f;
+}
+
+.location-text-maps{
+    display: flex;
+    margin-top: 8px;
+}
+
+
+.maps-text{
+    margin-left: 8px;
 }
 
 .location-map{
@@ -48,13 +116,6 @@
 
 /* platforms */
 
-.platforms {
-    margin-top: 100px;
-    margin-left: 200px;
-    width: 288px;
-    height: 50px;
-    margin-bottom: 20px;
-  }
   
   .platform-item {
     display: flex;
@@ -88,4 +149,98 @@
 .footer-info{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 84px;
+}
+
+.footer-list li{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1c1b1f;
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.footer-list{
+    margin-left: 100px;
+}
+
+.right-footer{
+    position: relative;
+}
+
+.platforms{
+    display: grid;
+}
+.jana-app-platform{
+    justify-self: end;
+}
+.coorporation{
+    justify-self: end;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #526070;
+}
+
+.coorporation{
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #526070;
+}
+
+.contact{
+    display: flex;
+    align-items: start;
+    margin-bottom: 17px;
+}
+
+.mail{
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.mail-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1c1b1f;
+}
+
+.location{
+    display: flex;
+}   
+
+.footer-img{
+    width: 40px;
+}
+
+.contact-text-number{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1c1b1f;
+    cursor: pointer;
+}
+
+.contact-text-whatsapp{
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 100px;
+    padding: 4px 12px 4px 4px;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1c1b1f;
+}
+
+.contact-text-whatsapp-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1c1b1f;
+    margin-left: 6px;
 }

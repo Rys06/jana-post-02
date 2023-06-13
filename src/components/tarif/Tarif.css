@@ -6,13 +6,15 @@
     height: 200px;
     border-radius: 24px;
     background-color: #f1f2f4;
+    padding: 24px 16px;
 }
 
-.tarif-text-container{
-    margin-left: 30px;
-}
+
 
 .tarif-text{
     color: #1c1b1f;
     font-weight: 700;
+    text-align: left;
+    font-size: 48px;
+    line-height: 60px;
 }

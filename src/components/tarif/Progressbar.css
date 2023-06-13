@@ -1,49 +1,96 @@
 .tarif-container {
-    margin-right: 100px;
-  }
-  
-  .weight-display {
-    font-size: 20px;
-    margin-left: 20px;
-  }
-  
-  .progress-input {
-    margin-top: 10px;
-  }
-  
-  
-  .progress-bar {
-    font-size: 28px;
-    color: #000000;
-  }
-  
-  .per-kg-price {
-    font-size: 14px;
-    color: #000000;
-    margin-left: 450px;  
+  display: flex;
+  align-items: end;
+}
 
+.weight-display {
+  font-size: 20px;
 }
   
-  .container-value{
-    margin-right: 200px;
-    margin-left: 100px;
-    
-  }
+.progress-input {
+  width: 100%;
+  border-radius: 999px;
+  z-index: 0;
+  background-color: #1b8918;
+  background-image: linear-gradient(#1b8918,#1b8918);
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  height: 2px;
+  appearance: none;
+  
+}
 
-  .container-weigh{
-    width: 100px;
-    display: flex;
-  }
 
-  .container-weight-inner{
-    background-color: white;
-    border-radius: 24px;
-    margin-top: 20px;
-    margin-right: 100px;
-    height: 60px;
+.progress-bar {
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: center;
+}
 
-  }
 
-  .weight-text{
-    margin-left: 20px;
-  }
+.container-value{
+  margin-bottom: 16px;
+}
+
+.container-weight{
+  width: 288px;
+}
+
+.container-weight-inner{
+  height: 62px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 12px 16px 0 16px;
+  background: #fff;
+  border-radius: 12px 12px 0 0;
+}
+
+
+.per-kg-price{
+  height: 62px;
+  padding: 19px 16px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  color: #1b8918;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+
+.progress-input::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Hides the default appearance of the thumb */
+  width: 15px; /* Width of the thumb */
+  height: 15px; /* Height of the thumb */
+  border: 2px solid #1b8918;
+  background-color: #fff; /* Color of the thumb */
+  border-radius: 50%; /* Makes the thumb circular */
+  cursor: pointer;
+}
+
+.progress-input::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #1b8918;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.progress-input::-ms-thumb {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #1b8918;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.container-inner{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}

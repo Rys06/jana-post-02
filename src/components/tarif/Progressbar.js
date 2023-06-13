@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "/Users/kondybairysbek/Desktop/jana-post-02/src/components/tarif/Progressbar.css"
+import "../tarif/Progressbar.css"
 
 const ProgressBar = () => {
   const [weight, setWeight] = useState(0.5);
@@ -25,14 +25,14 @@ const ProgressBar = () => {
         <div className='container-inner'>
           <div className='container-value'>
               <p>Жеткізу бағасы</p>
-              <div className="progress-bar">{calculatedValue}$</div>
-                <br></br>
+              <div className="progress-bar">${calculatedValue}</div>
           </div>
           <div className='container-weight'>
             <div className='container-weight-inner'>
-              <p className='weight-text'>Тауардың салмағы</p>
+              <span className='weight-text'>Тауардың салмағы</span>
               <div className="weight-display">{weight} kg</div>
-                <input className='progress-input'
+            </div>
+            <input className='progress-input'
                   type="range"
                   min={0}
                   max={32}
@@ -40,7 +40,6 @@ const ProgressBar = () => {
                   value={weight}
                   onChange={handleChangeWeight}
                 />
-              </div>
           </div>
         </div>
         <div className='per-kg-price'>1кг = $4.7</div>

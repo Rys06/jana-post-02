@@ -3,12 +3,12 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import "../filials/Filials.css"
-import Phone from "/Users/kondybairysbek/Desktop/jana-post-02/src/assets/phone_android.svg"
-import Time from "/Users/kondybairysbek/Desktop/jana-post-02/src/assets/watch_inactive.svg"
-import Money from "/Users/kondybairysbek/Desktop/jana-post-02/src/assets/payments.svg"
-import LocationLogo from "/Users/kondybairysbek/Desktop/jana-post-02/src/assets/location_on.svg"
-import Tgis from "/Users/kondybairysbek/Desktop/jana-post-02/src/assets/2gislogo.svg"
-import Yandex from "/Users/kondybairysbek/Desktop/jana-post-02/src/assets/yandexlogo.svg"
+import Phone from "../../assets/phone_android.svg"
+import Time from "../../assets/watch_inactive.svg"
+import Money from "../../assets/payments.svg"
+import LocationLogo from "../../assets/location_on.svg"
+import Tgis from "../../assets/2gislogo.svg"
+import Yandex from "../../assets/yandexlogo.svg"
 
 const Filials = () => {
 
@@ -19,7 +19,7 @@ const Filials = () => {
       watch: '09:00 - 17:00 Сейсенбі демалыс',
       money: 'Қытайдан филиалдарға дейін',
       address: 'Жанаконыс 394 а Ақтөбе қаласы',
-      maps: ['2gis', 'Яндекс.Карты']
+      maps: ['2gis', 'Яндек.Карты']
     },
     {
       city: 'Астана қаласы',
