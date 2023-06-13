@@ -1,6 +1,6 @@
 import React from 'react'
-import "/Users/kondybairysbek/Desktop/jana-post-02/src/components/jana-team/JanaTeam.css"
-import Teamimg from "/Users/kondybairysbek/Desktop/jana-post-02/src/assets/teamimg.png"
+import "../jana-team/JanaTeam.css"
+import Teamimg from "../../assets/teamimg.png"
 
 function Team() {
   return (

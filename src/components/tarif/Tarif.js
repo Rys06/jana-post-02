@@ -1,5 +1,5 @@
 import React from 'react'
-import "/Users/kondybairysbek/Desktop/jana-post-02/src/components/tarif/Tarif.css"
+import "../tarif/Tarif.css"
 import Progressbar from "./Progressbar"
 
 function TarifConvertComponent() {

@@ -1,103 +1,95 @@
 .jana-app-inner{
-    display: flex;
-    align-items: center;
-    padding: 40px 80px 0 40px;
-    background: linear-gradient(114.6deg,#4aa267,#60d08d);
-    border-radius: 12px;
-    height: 500px;
-    overflow: hidden;
-    margin-top: 100px;
+  display: flex;
+  padding: 40px 80px 0 40px;
+  background: linear-gradient(114.6deg,#4aa267,#60d08d);
+  border-radius: 12px;
+  height: 500px;
+  overflow: hidden;
+  margin-top: 100px;
+  position: relative;
 }
 
-.left-app{
-    color: white;
-    width: 768px;
-    font-weight: bold;
+.jana-app-text{
+width: 450px;
 }
 
-.platforms {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    width: 288px;
-    height: 50px;
-    margin-bottom: 20px;
-  }
-  
-  .platform-item {
-    display: flex;
-    align-items: center;
-    margin-right: 2қ0px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-  }
-  
-  .app-logo {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .app-text {
-    margin-left: 10px;
-    color: #1b8918;
-  }
-  
-  .app-text .app-text-title {
-    font-size: 14px;
-    font-weight: bold;
-  }
-  
-  .app-text .app-text-paragraph {
-    font-size: 12px;
-    color: #1b8918;  
-}
-  
-.qr-app-container{
-    width: 331px;
-    padding: 16px;
-    background: #fff;
-    box-shadow: 0 12px 32px rgba(42,70,94,.03);
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
+.jana-app-title{
+font-size: 48px;
+line-height: 60px;
+color: #fff;
+font-weight: bold;
 }
 
-
-.qr-code-img{
-    width: 80px;
-    height: 80px;
+.jana-app-subtitle{
+font-size: 34px;
+line-height: 38px;
+color: #fff;
 }
 
-.qr-code-text{
-    margin: 0 auto;
-    color: grey;
+.jana-app-platform{
+display: flex;
 }
 
-.right-app{
-    display: flex;
+.jana-app-platform-item{
+display: flex;
+padding: 5px 12px;
+color: #1b8918;
+background-color: #f1f2f4;
+border: 1px solid #e8e8e8;
+border-radius: 8px;
+padding: 5px 12px;
+width: 138px;
+margin-right: 8px;
 }
 
+.jana-app-platform-text{
+margin-left: 9px;
+}
 
-.left-img-container {
-    margin-top: 110px;
-    margin-left: 100px;
+.platform-text-title{
+font-weight: 700;
+font-size: 14px;
+}
 
-  }
-  
-  .right-img-container {
-    margin-left: 0px;
-  } 
-  
-  .left-app-img {
-    width: 286px;
-    height: 356.11px;
-  }
-  
-  .right-app-img {
-    width: 284px;
-    height: 428.77px;
-    margin-top: 40px;
-  }
-  
+.platform-text-subtitle{
+font-weight: 500;
+font-size: 12px;
+}
+
+.jana-app-qr{
+display: flex;
+padding: 16px;
+width: 331px;
+background: #fff;
+box-shadow: 0 12px 32px rgba(42,70,94,.03);
+border-radius: 16px;
+display: flex;
+align-items: center;
+gap: 12px;
+margin-top: 15px;
+}
+
+.jana-app-qr-text{
+color: #526070;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}
+
+.Jana-app-phone{
+position: relative;
+}
+
+.blue-device{
+position: absolute;
+bottom: 0;
+left: 0;
+z-index: 0;
+}
+
+.green-device{
+position: absolute;
+bottom: 0;
+left: 235px;
+z-index: 1;
+}
