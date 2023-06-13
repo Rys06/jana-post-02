@@ -1,28 +1,92 @@
-
-.filials-title{
-    margin-top: 50px;
+.filial-title{
+    font-size: 48px;
+    line-height: 60px;
+    color: #1c1b1f;
+    font-weight: 700;
+    margin-top: 70px;
 }
 
-.filials-inner {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 0;
+.slider-outter{
+    width: 400px;
+    margin: 0 auto;
 }
 
-.location-container {
-    background-color: aliceblue;
+
+.slider-slide{
+    width: 372px;
     border-radius: 24px;
-    padding: 16px 12px;
-    margin: 0 30px;
-    width: 300px;
+    padding: 16px 12px 24px 16px;
+    background-color: #f1f2f4;
+    margin-top: 30px;
 }
 
-.all-filials-button {
-    display: flex;
-    margin: 40px auto;
-    background-color: gainsboro;
-    color: green;
-    border: none;
-    padding: 10px;
-    border-radius: 12px;
+.slider-title{
+    font-size: 24px;
+    line-height: 32px;
 }
+
+.slider-text{
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1c1b1f;
+}
+
+.slider-img{
+    margin-right: 10px;
+}
+
+.tgis-button{
+    width: 82.5px;
+    height: 38px;
+    border-radius: 24px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.yandex-button{
+    width: 147px;
+    height: 38px;
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.map-text{
+    color: #1B8918;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.button-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .slider-img {
+    margin-right: 8px; 
+  }
+
+  .button-img{
+    margin-right: 5px;
+  }
+  
+
+  .all-filials{
+    padding: 12px;
+    background: #f1f2f4;
+    border-radius: 12px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #1b8918;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+  }

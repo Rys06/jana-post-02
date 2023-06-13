@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.filial-container{
+    max-width: 600px;
+     margin: auto;
+}
+
+.filial-locations::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.filial-locations{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none ;
+
+}
+
+.filial-locations div > div {
+  margin-left: 20px;
+}
+
+.location{
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 250px;
+  min-width: 250px;
+  margin-left: 20px;
+  padding: 10px;
+ 
+}

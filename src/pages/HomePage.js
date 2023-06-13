@@ -8,6 +8,52 @@ import Team from '/Users/kondybairysbek/Desktop/jana-post-02/src/components/jana
 import JanaApp from "/Users/kondybairysbek/Desktop/jana-post-02/src/components/jana-app/JanaApp.js"
 import Footer from "/Users/kondybairysbek/Desktop/jana-post-02/src/components/footer/Footer.js"
 
+const locations = [
+    {
+      city: 'Ақтөбе облысы',
+      phone: '+77072651688',
+      watch: '09:00 - 17:00 Сейсенбі демалыс',
+      money: 'Қытайдан филиалдарға дейін / 1кг',
+      address: 'Жанаконыс 394 а Ақтөбе қаласы',
+      maps: ['2gis', 'yandex']
+    },
+    {
+      city: 'Астана қаласы',
+      phone: '+77475991688',
+      watch: '09:00 - 17:00 Сейсенбі демалыс',
+      money: 'Қытайдан филиалдарға дейін / 1кг',
+      address: 'Шоссе Алаш 35/3 Байқоңыр ауданы',
+      maps: ['2gis', 'yandex']
+    },
+    {
+      city: 'Атырау облысы',
+      phone: '+77479091688',
+      watch: '09:00 - 17:00 Сейсенбі демалыс',
+      money: 'Қытайдан филиалдарға дейін / 1кг',
+      address: 'Баймуханова 78 Атырау қаласы',
+      maps: ['2gis', 'yandex']
+    },
+    {
+      city: 'Маңғыстау облысы',
+      phone: '+77075421688',
+      watch: '09:00 - 17:00 Сейсенбі демалыс',
+      money: 'Қытайдан филиалдарға дейін / 1кг',
+      address: '28 а, 23 Ақтау қаласы',
+      maps: ['2gis', 'yandex']
+    },
+    {
+      city: 'Маңғыстау облысы',
+      phone: '++77073091688',
+      watch: '09:00 - 17:00 Сейсенбі демалыс',
+      money: 'Қытайдан филиалдарға дейін / 1кг',
+      address: 'Рахат 2-4-39 Жаңаөзен қаласы',
+      maps: ['2gis', 'yandex']
+    }
+    
+  ];
+  
+
+
 function HomePage () 
 {
     return  (
