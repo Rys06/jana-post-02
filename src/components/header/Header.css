@@ -8,6 +8,7 @@
   width: 100%;
   box-shadow: 0 4px 8px rgba(42,70,94,.04);
   background-color: #fff;
+  z-index: 100;
 }
 
 
